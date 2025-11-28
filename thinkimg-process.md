@@ -105,14 +105,29 @@
 
 # <p style="display: flex; align-items: center; gap: 0.5em;"><span style="font-weight:bold; color: white; background-color: lightSeaGreen; padding: 0.5rem 2rem;">WRITE YOUR THINKING PROCESS BELOW.</span><span style="font-weight:bold; color: white; background-color: lightSeaGreen; padding: 0.5rem 0;">&nbsp;</span></p>
 
-<!-- Thinking Process -->
-<!-- 1. Workflow Planning -->
-<!-- 2.1. Board Functions (Hardcoded) -->
-<!-- 2.2. Board Functions (Generated) -->
-<!-- 3. Input Functions -->
-<!-- 4. Movement Functions -->
-<!-- 5. Game Rule Functions -->
-<!-- 6. Game Play Loop -->
+Thinking Process -->
+1. Workflow Planning
+
+- ตั้งและกำหนดค่าของบอร์ด กำหนดตำแหน่ง player
+- สร้างบอร์ดให้ได้ก่อน
+- สร้างแพลนการเดิน กฎ กติกา และกำหนดฟังก์ชั่นให้ทำงาน
+- กำหนดค่าให้ หากเดินนอกกฏ คีย์ผิดปุ่ม และเดินออกนอกบอร์ด จบเกมส์
+- ทำให้เกมเดินได้ ตามข้อกำหนด จนจบเกมส์
+
+2.1. Board Functions (Hardcoded)
+- พี่มีนทำให้แล้ว
+2.2. Board Functions (Generated)
+- ยังไม่ได้ทำ
+3. Input Functions
+- ตามค่าที่พี่มีนกำหนดไว้ ให้เป็น lowerCase
+- ถ้าไม่เดินตามนั้น ก็ต้องให้มัน Invalid
+4. Movement Functions
+- กำหนดให้การเดินขยับตามตำแหน่ง Array
+5. Game Rule Functions
+- ให้หยุดเกมส์ เมื่อ ตกขอบ ตกหลุม และชนะเมื่อเก็บหมวก ตามกฏของเกมส์ และ ให้ player(*) move ตามการเดินด้วย
+6. Game Play Loop
+- ต้องให้ตารางยังคงอยู่ตอนที่เล่นไม่จบไม่รันใหม่ และถ้าใส่ข้อมูลผิด ให้ใส่ค่าใหม่อีกครั้ง
+เฮ้อ
 
 [Back to Table of Contents](#table-of-contents)
 
